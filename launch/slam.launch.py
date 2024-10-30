@@ -19,7 +19,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             'namespace',
-            default_value='palletron1',
+            default_value='ugv1',
             description='Top-level namespace.'))
 
     declared_arguments.append(

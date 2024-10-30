@@ -17,7 +17,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             'namespace',
-            default_value='palletron1',
+            default_value='ugv1',
             description='Top-level namespace.'))
 
     declared_arguments.append(
@@ -51,9 +51,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'autostart',
             default_value='True',
-            description='Automatically start the localization stack.'
-        )
-    )
+            description='Automatically start the localization stack.'))
 
     declared_arguments.append(
         DeclareLaunchArgument(
